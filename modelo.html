@@ -4,22 +4,31 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Política de Privacidade — NOME_DO_APP</title>
-  <meta name="description" content="Política de Privacidade do aplicativo NOME_DO_APP." />
+  <meta name="description" content="Política de Privacidade do aplicativo NOME_DO_APP, da DigiDelfi." />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <h1>Política de Privacidade</h1>
-      <p>NOME_DO_APP</p>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.svg" alt="DigiDelfi" />
+        <span>DigiDelfi</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html#sobre">Sobre</a>
+        <a href="index.html#apps">Aplicativos</a>
+        <a href="mailto:daniel.bdelfino@gmail.com">Contato</a>
+      </div>
     </div>
-  </header>
+  </nav>
 
-  <main class="container">
-    <a class="back" href="index.html">&larr; Voltar</a>
+  <main class="container" style="padding-top: 40px;">
+    <p class="muted"><a href="index.html">&larr; Voltar para os aplicativos</a></p>
 
     <div class="policy">
-      <p><strong>Vigência a partir de:</strong> DATA_DE_VIGENCIA</p>
+      <h1>Política de Privacidade — NOME_DO_APP</h1>
+      <p class="muted"><strong>Vigência a partir de:</strong> DATA_DE_VIGENCIA</p>
 
       <p>Descreva aqui como NOME_DO_APP trata as informações.</p>
 
@@ -41,15 +50,17 @@
       <p>...</p>
 
       <h2>5. Contato</h2>
-      <p>
-        Contato: <a href="mailto:SEU_EMAIL">SEU_EMAIL</a>
-      </p>
+      <p>Contato: <a href="mailto:SEU_EMAIL">SEU_EMAIL</a></p>
     </div>
   </main>
 
   <footer>
-    <div class="container">
-      &copy; <span id="year"></span> — Todos os direitos reservados.
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.svg" alt="DigiDelfi" />
+        <span>&copy; <span id="year"></span> DigiDelfi</span>
+      </div>
+      <div><a href="mailto:daniel.bdelfino@gmail.com">daniel.bdelfino@gmail.com</a></div>
     </div>
   </footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>

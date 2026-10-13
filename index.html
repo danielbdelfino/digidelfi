@@ -3,37 +3,116 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Políticas de Privacidade</title>
-  <meta name="description" content="Página central com as Políticas de Privacidade dos aplicativos." />
+  <title>DigiDelfi — Software house independente</title>
+  <meta name="description" content="DigiDelfi é uma software house independente que cria aplicativos Android úteis, simples e que respeitam a sua privacidade." />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.svg" alt="DigiDelfi" />
+        <span>DigiDelfi</span>
+      </a>
+      <div class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#apps">Aplicativos</a>
+        <a href="#politicas">Políticas</a>
+        <a href="mailto:daniel.bdelfino@gmail.com">Contato</a>
+      </div>
+    </div>
+  </nav>
+
   <header class="hero">
     <div class="container">
-      <h1>Políticas de Privacidade</h1>
-      <p>Aplicativos Android</p>
+      <div class="badge"><span class="dot"></span> Software house independente</div>
+      <h1>Aplicativos que respeitam você</h1>
+      <p>
+        Criamos apps Android do zero, com foco em simplicidade, desempenho e privacidade.
+        Sem rastreadores escondidos e sem vender seus dados.
+      </p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#apps">Conheça os apps</a>
+        <a class="btn btn-ghost" href="#sobre">Sobre a DigiDelfi</a>
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <p class="muted">
-      Esta página reúne as políticas de privacidade dos aplicativos publicados.
-      Selecione um aplicativo para ler a política correspondente.
-    </p>
+  <main>
+    <section id="sobre" class="container">
+      <div class="about">
+        <h2 class="section-title">Sobre a DigiDelfi</h2>
+        <p>
+          A <strong>DigiDelfi</strong> é uma software house independente dedicada ao
+          desenvolvimento de aplicativos Android. Somos um estúdio pequeno e autoral: cada app é
+          pensado, projetado e mantido por nós, com atenção aos detalhes e à experiência de uso.
+        </p>
+        <p>
+          Acreditamos que software bom é <strong>simples</strong>, <strong>rápido</strong> e
+          <strong>transparente</strong>. Por isso, priorizamos o processamento local, coletamos o
+          mínimo de informações possível e explicamos com clareza o que cada aplicativo faz.
+        </p>
+        <div class="grid-3">
+          <div class="feature">
+            <div class="ico">🔒</div>
+            <h3>Privacidade em primeiro lugar</h3>
+            <p>Processamento no próprio aparelho sempre que possível. Sem venda de dados.</p>
+          </div>
+          <div class="feature">
+            <div class="ico">⚡</div>
+            <h3>Leve e rápido</h3>
+            <p>Apps enxutos, sem inchaço, feitos para funcionar bem em qualquer dispositivo.</p>
+          </div>
+          <div class="feature">
+            <div class="ico">🛠️</div>
+            <h3>Independente</h3>
+            <p>Desenvolvimento autoral e suporte direto com quem realmente fez o app.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="apps">
-      <a class="app-card" href="safeview.html">
-        <div class="name">SafeView</div>
-        <div class="desc">Bloqueio de conteúdo adulto por filtragem de DNS.</div>
-      </a>
+    <section id="apps" class="container">
+      <h2 class="section-title">Nossos aplicativos</h2>
+      <p class="section-sub">Toque em um app para ler a Política de Privacidade.</p>
 
-      <!-- Adicione novos apps aqui (copie o bloco acima e ajuste o link/nome) -->
-    </div>
+      <div class="apps">
+        <a class="app-card" href="safeview.html">
+          <img src="assets/safeview-icon.png" alt="Ícone do SafeView" />
+          <div>
+            <div class="name">SafeView</div>
+            <div class="desc">Bloqueio de conteúdo adulto por filtragem de DNS.</div>
+            <div class="tags">
+              <span class="tag">Controle parental</span>
+              <span class="tag">DNS</span>
+            </div>
+          </div>
+          <div class="arrow">→</div>
+        </a>
+
+        <!-- Adicione novos apps aqui (copie o bloco acima e ajuste link, ícone e textos) -->
+      </div>
+    </section>
+
+    <section id="politicas" class="container">
+      <h2 class="section-title">Políticas de Privacidade</h2>
+      <p class="section-sub">
+        A Google Play exige uma política de privacidade pública para cada aplicativo.
+        Todas ficam reunidas neste site.
+      </p>
+    </section>
   </main>
 
   <footer>
-    <div class="container">
-      &copy; <span id="year"></span> — Todos os direitos reservados.
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.svg" alt="DigiDelfi" />
+        <span>&copy; <span id="year"></span> DigiDelfi</span>
+      </div>
+      <div>
+        <a href="mailto:daniel.bdelfino@gmail.com">daniel.bdelfino@gmail.com</a>
+      </div>
     </div>
   </footer>
 
