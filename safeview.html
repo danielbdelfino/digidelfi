@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade — SafeView</title>
+  <meta name="description" content="Política de Privacidade do aplicativo SafeView." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Política de Privacidade</h1>
+      <p>SafeView</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <a class="back" href="index.html">&larr; Voltar</a>
+
+    <div class="policy">
+      <p><strong>Vigência a partir de:</strong> 13 de outubro de 2026</p>
+
+      <p>
+        Esta Política de Privacidade descreve como o aplicativo <strong>SafeView</strong>
+        ("nós", "o aplicativo") trata informações. Ao instalar e usar o SafeView, você concorda
+        com as práticas descritas abaixo.
+      </p>
+
+      <h2>1. Resumo</h2>
+      <ul>
+        <li>O SafeView <strong>não coleta, não armazena em servidores e não compartilha</strong> dados pessoais do usuário.</li>
+        <li>Todo o processamento de bloqueio (DNS e análise de mídia) acontece <strong>localmente no seu dispositivo</strong>.</li>
+        <li>Não mantemos histórico de navegação nem de sites bloqueados em servidores.</li>
+        <li>O app exibe anúncios por meio do <strong>Google AdMob</strong>, que possui sua própria política de privacidade.</li>
+      </ul>
+
+      <h2>2. Informações que o aplicativo trata</h2>
+      <p>
+        O SafeView não exige cadastro e não solicita nome, e-mail, telefone ou qualquer dado
+        de identificação pessoal. As únicas informações processadas são:
+      </p>
+      <ul>
+        <li><strong>Consultas de DNS</strong>, para verificar se um domínio está na lista de bloqueio. Isso ocorre no próprio dispositivo; o app não registra nem envia esse histórico para nós.</li>
+        <li><strong>Estatísticas de bloqueio</strong> (contagem total e semanal), armazenadas apenas no seu aparelho.</li>
+        <li><strong>Arquivos de mídia</strong> (imagens/vídeos) da galeria, analisados localmente para identificar nomes/caminhos/metadados suspeitos. Nenhuma imagem ou vídeo é enviado para fora do dispositivo.</li>
+      </ul>
+
+      <h2>3. Permissões utilizadas</h2>
+      <table>
+        <tr><th>Permissão</th><th>Finalidade</th></tr>
+        <tr><td>Internet / Estado da rede</td><td>Funcionamento do anúncio e do serviço de DNS.</td></tr>
+        <tr><td>Serviço em primeiro plano (Foreground Service)</td><td>Manter a proteção ativa enquanto o app está em segundo plano.</td></tr>
+        <tr><td>Notificações</td><td>Exibir o aviso persistente de que a proteção está ativa.</td></tr>
+        <tr><td>Leitura de imagens e vídeos</td><td>Analisar a galeria localmente, quando o bloqueio de mídia está habilitado.</td></tr>
+        <tr><td>Serviço de VPN (BIND_VPN_SERVICE)</td><td>Filtrar somente as consultas de DNS, sem redirecionar todo o tráfego.</td></tr>
+      </table>
+
+      <h2>4. Serviço de VPN (filtragem de DNS)</h2>
+      <p>
+        Para bloquear sites, o SafeView cria uma conexão VPN <em>local</em> que intercepta
+        <strong>apenas</strong> as consultas de DNS. O restante do seu tráfego de internet
+        <strong>não passa</strong> pela VPN e não é monitorado, coletado ou armazenado.
+        O app não se conecta a nenhum servidor nosso e não registra o conteúdo acessado.
+      </p>
+
+      <h2>5. Anúncios (Google AdMob)</h2>
+      <p>
+        O SafeView é gratuito e exibe anúncios por meio do Google AdMob. O SDK de anúncios pode
+        coletar determinados dados (por exemplo, identificador de publicidade, modelo do
+        dispositivo e dados de uso) para exibir anúncios, conforme a política do Google.
+        Não temos acesso a dados pessoais coletados por esse serviço.
+      </p>
+      <ul>
+        <li>Política de Privacidade do Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+        <li>Como o Google usa dados: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a></li>
+      </ul>
+      <p>
+        Você pode limitar a personalização de anúncios nas configurações do seu dispositivo Android
+        (Anúncios → Excluir ID de publicidade).
+      </p>
+
+      <h2>6. Compartilhamento com terceiros</h2>
+      <p>
+        Não vendemos nem compartilhamos dados pessoais. O eventual compartilhamento limita-se ao
+        necessário para o funcionamento do SDK de anúncios (Google AdMob), conforme descrito acima.
+      </p>
+
+      <h2>7. Segurança</h2>
+      <p>
+        Como o processamento é local, as informações permanecem no seu dispositivo. A senha
+        opcional de proteção é armazenada de forma não reversível (hash com sal) e nunca sai do aparelho.
+      </p>
+
+      <h2>8. Privacidade de crianças e uso parental</h2>
+      <p>
+        O SafeView é uma ferramenta de controle parental/gestão de conteúdo e não é direcionado a
+        crianças. Não coletamos intencionalmente dados de crianças. Os anúncios exibidos são
+        fornecidos pelo Google conforme as políticas aplicáveis.
+      </p>
+
+      <h2>9. Retenção de dados</h2>
+      <p>
+        Nenhum dado é retido em nossos servidores, pois não mantemos servidores com dados de usuários.
+        As estatísticas e a senha ficam apenas no aparelho e são removidas com a desinstalação do app.
+      </p>
+
+      <h2>10. Seus direitos (LGPD)</h2>
+      <p>
+        Como não coletamos dados pessoais identificáveis, não há dados pessoais sob nossa custódia
+        para acesso, correção ou exclusão. Você pode, a qualquer momento, desinstalar o aplicativo
+        para remover todas as informações armazenadas localmente.
+      </p>
+
+      <h2>11. Alterações nesta política</h2>
+      <p>
+        Esta política pode ser atualizada periodicamente. A versão mais recente estará sempre
+        disponível nesta página, com a data de vigência atualizada.
+      </p>
+
+      <h2>12. Contato</h2>
+      <p>
+        Em caso de dúvidas sobre esta Política de Privacidade, entre em contato:
+        <a href="mailto:daniel.bdelfino@gmail.com">daniel.bdelfino@gmail.com</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      &copy; <span id="year"></span> — Todos os direitos reservados.
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
