@@ -7,23 +7,29 @@ Reúne a página institucional e as Políticas de Privacidade de cada app (exigi
 - SafeView: `safeview.html`
 - Template para novos apps: `modelo.html`
 
-## Publicação (GitHub Pages)
+## Publicação (GitHub Pages — Project Page)
 
-Publicado como repositório **`digidelfi.github.io`**, disponível em:
+Publicado como repositório **`digidelfi`** do usuário `danielbdelfino`, ficando em:
 
 ```
-https://digidelfi.github.io/
+https://danielbdelfino.github.io/digidelfi/
 ```
+
+- Home (index): `https://danielbdelfino.github.io/digidelfi/`
+- Política do SafeView: `https://danielbdelfino.github.io/digidelfi/safeview.html`
 
 Passos (caso precise reproduzir):
 
-1. Crie no GitHub um repositório **público** chamado `digidelfi.github.io`.
+1. Crie no GitHub um repositório **público** chamado `digidelfi` (sem `.github.io` no nome).
 2. Envie os arquivos para a branch `main`.
 3. Em **Settings → Pages → Build and deployment**:
    - Source: **Deploy from a branch**
    - Branch: **main** / pasta **/ (root)**
-4. O site fica no ar em alguns minutos.
+4. O site fica no ar em alguns minutos em `https://danielbdelfino.github.io/digidelfi/`.
 
+> Todos os links internos são **relativos** (`assets/...`, `safeview.html`), então funcionam
+> tanto na raiz quanto em subpasta — não é preciso configurar caminho base.
+>
 > GitHub Pages em repositórios **privados** exige plano GitHub Pro. Para manter gratuito,
 > o repositório do Pages deve ser **público** (o código dos apps pode continuar privado).
 
@@ -46,7 +52,7 @@ Passos (caso precise reproduzir):
 ```
 
 4. Preencha o campo **URL da Política de Privacidade** no Google Play Console com o link do app
-   (ex.: `https://digidelfi.github.io/nome-do-app.html`).
+   (ex.: `https://danielbdelfino.github.io/digidelfi/nome-do-app.html`).
 
 ## Estrutura
 
